@@ -1,0 +1,13 @@
+diff --git a/src/audio/SDL_audio.c b/src/audio/SDL_audio.c
+index 3137493..961b276 100644
+--- a/src/audio/SDL_audio.c
++++ b/src/audio/SDL_audio.c
+@@ -93,7 +93,7 @@ static const AudioBootStrap *const bootstrap[] = {
+     &openslES_bootstrap,
+ #endif
+ #if SDL_AUDIO_DRIVER_ANDROID
+-    &ANDROIDAUDIO_bootstrap,
++    //&ANDROIDAUDIO_bootstrap,
+ #endif
+ #if SDL_AUDIO_DRIVER_PSP
+     &PSPAUDIO_bootstrap,
